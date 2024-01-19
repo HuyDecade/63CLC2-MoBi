@@ -1,0 +1,12 @@
+E:\CODEE\ASP.net\PTUDW_63130519\Myclass_63130519\bin\Debug\Myclass_63130519.dll.config
+E:\CODEE\ASP.net\PTUDW_63130519\Myclass_63130519\bin\Debug\Myclass_63130519.dll
+E:\CODEE\ASP.net\PTUDW_63130519\Myclass_63130519\bin\Debug\Myclass_63130519.pdb
+E:\CODEE\ASP.net\PTUDW_63130519\Myclass_63130519\bin\Debug\EntityFramework.dll
+E:\CODEE\ASP.net\PTUDW_63130519\Myclass_63130519\bin\Debug\EntityFramework.SqlServer.dll
+E:\CODEE\ASP.net\PTUDW_63130519\Myclass_63130519\bin\Debug\EntityFramework.xml
+E:\CODEE\ASP.net\PTUDW_63130519\Myclass_63130519\bin\Debug\EntityFramework.SqlServer.xml
+E:\CODEE\ASP.net\PTUDW_63130519\Myclass_63130519\obj\Debug\Myclass_63130519.csproj.AssemblyReference.cache
+E:\CODEE\ASP.net\PTUDW_63130519\Myclass_63130519\obj\Debug\Myclass_63130519.csproj.CoreCompileInputs.cache
+E:\CODEE\ASP.net\PTUDW_63130519\Myclass_63130519\obj\Debug\Myclass_63130519.csproj.CopyComplete
+E:\CODEE\ASP.net\PTUDW_63130519\Myclass_63130519\obj\Debug\Myclass_63130519.dll
+E:\CODEE\ASP.net\PTUDW_63130519\Myclass_63130519\obj\Debug\Myclass_63130519.pdb
