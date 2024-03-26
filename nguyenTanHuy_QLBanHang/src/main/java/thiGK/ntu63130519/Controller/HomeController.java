@@ -9,9 +9,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 public class HomeController {
-	 @GetMapping("/URl")
+	 @GetMapping("/URLhome")
 	    public String index(Model model) {
-	        
+	        //ghi chu 
 	        List<Student> students = new ArrayList<>();
 	        students.add(new Student("Nguyen", "Huy", "63130519", "CNTT", "NTU", "f1.jpg"));
 	        model.addAttribute("students", students);
