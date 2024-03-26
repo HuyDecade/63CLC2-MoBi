@@ -9,7 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 public class HomeController {
-	 @GetMapping("/")
+	 @GetMapping("/URl")
 	    public String index(Model model) {
 	        // Mock data for students
 	        List<Student> students = new ArrayList<>();
