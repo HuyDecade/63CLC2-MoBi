@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Student List</title>
+</head>
+<body>
+    <h2>Student List</h2>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Cumulative Score</th>
+        </tr>
+        <tr th:each="student : ${students}">
+            <td th:text="${student.id}"></td>
+            <td th:text="${student.name}"></td>
+            <td th:text="${student.cumulativeScore}"></td>
+        </tr>
+    </table>
+
+    <h2>Add New Student</h2>
+    <form action="/students/add" method="post" th:object="${newStudent}">
+        ID: <input type="text" th:field="*{id}"><br>
+        Name: <input type="text" th:field="*{name}"><br>
+        Cumulative Score: <input type="text" th:field="*{cumulativeScore}"><br>
+        <input type="submit" value="Add Student">
+    </form>
+
+    <h2>Search Student</h2>
+    <form action="/students/search" method="get">
+        ID: <input type="text" name="id">
+        <input type="submit" value="Search">
+    </form>
+
+    <p th:text="${errorMessage}"></p>
+</body>
+</html>
